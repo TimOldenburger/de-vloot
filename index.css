@@ -1,19 +1,21 @@
 body {
 	background: url(./css/grfx/bg.png);
 	background-size: 100% 328px;
-	background-position: 0px 250px;
+	background-position: 0px 267px;
 	background-repeat: repeat-x;
-	font-family: sans-serif 14px;
+	font-family: Arial, sans-serif;
 	margin-top: -25px;
 }
 
 div#header {
 	background-image: url('css/grfx/header.jpg');
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: left 25% right 25%;
 	margin-left: 25%;
 	margin-right: 25%;
-	height: 250px;
+	height: 267px;
+	max-width: 1000px;
 	position: relative;
 }
 
@@ -34,6 +36,7 @@ div#box {
 	padding-top: 25px;
 	padding-left: 15px;
 	padding-right: 15px;
+	max-width: 1000px;
 }
 
 #box h2 {
@@ -86,4 +89,8 @@ li {
 li a {
 	text-decoration: none;
 	color: #FFFFFF;
+}
+
+li a:hover {
+	color: #0489B1;
 }
